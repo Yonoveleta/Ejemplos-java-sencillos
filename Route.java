@@ -9,6 +9,7 @@ public class Route {
 		this.destination = destination;
 	}
 	
+	// Esto es un comentario para la modificacion
 	public double getDistance() {
 		return Math.sqrt(Math.pow(destination.getX() - origin.getX(), 2) 
 				
